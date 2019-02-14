@@ -64,4 +64,4 @@ Combine filters together to achieve the wanted result. If a separate file with t
 cat calc.c | ./all | ./calc > file.text
 ```
 
-## Thank you for reading!
+### Thank you for reading!
