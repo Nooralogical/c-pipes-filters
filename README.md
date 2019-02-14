@@ -24,14 +24,12 @@ Compile into a runnable program:
 
 ```
 gcc calc.c -o calc
-
 ```
 
 For example to calculate the source codes characters, whitespace, rows and words:
 
 ```
 cat calc.c | ./calc
-
 ```
 
 this will give you the console output:
@@ -41,14 +39,12 @@ Chars: 765
 Whitespace: 523
 Lines: 53
 Words: 162
-
 ```
 
 To use multiple filters, pipe them together. To remove all whitespace from a source file and calculate to see the result:
 
 ```
 cat calc.c | ./all | ./calc
-
 ```
 
 This gives you the output where the result can be seen:
@@ -58,12 +54,12 @@ Chars: 765
 Whitespace: 0 
 Lines: 53
 Words: 48
-
 ```
 
 Combine filters together to achieve the wanted result. If a separate file with the output is needed, in stead of console output:
 
 ```
 cat calc.c | ./all | ./calc > file.text
-
 ```
+
+##Thank you for reading!
