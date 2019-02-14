@@ -2,7 +2,7 @@
 
 ## About
 
-This repository contains 5 short filterin program and one that calculates the characters, rows, whitespaces and words.
+This repository contains 5 short filtering programs and one that calculates the characters, rows, whitespaces and words of a file.
 
 **all.c** removes all whitespaces
 
@@ -10,9 +10,11 @@ This repository contains 5 short filterin program and one that calculates the ch
 
 **empty.c** removes all empty lines
 
-**block.c** removes all block comments like /*this*/
+**block.c** removes all block comments
 
-**line.c** removes all one line comments like //this
+**line.c** removes all one line comments
+
+**calc.c** is for calculating
 
 Using all of these piped together you can calculate just the written code in one source file without whitespaces, empty lines or comments.
 
@@ -32,7 +34,7 @@ For example to calculate the source codes characters, whitespace, rows and words
 cat calc.c | ./calc
 ```
 
-this will give you the console output:
+This will give you the console output:
 
 ```
 Chars: 765
